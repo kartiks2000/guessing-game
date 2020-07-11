@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guessing game</title>
+</head>
+<body>
+    <header class="header">
+        <div class="box">
+            <div class="heading"><h1>The Guessing game...</h1></div>
+            <hr>
+            <div class="display">
+
+                <h2 class="player-1-card"><span class="player-1-name">player 1 score</span><span class="player-1-score">3</span></h2>
+
+                <h2 class="player-2-card"><span class="player-2-name">player 2 score</span><span class="player-2-score">6</span></h2>
+            </div>
+            <div class="players">
+                <div class="player-1">
+                    <input type="number" name="player-1-input" class="player-1-input" placeholder="player 1 input" >
+                </div>
+                <div class="player-2">
+                    <input type="number" name="player-2-input" class="player-2-input" placeholder="player 2 input" >
+                </div>
+            </div>
+            <div class="output">
+                <h1 class="actual-number">3</h1>
+            </div>
+            <button class="start" id="start">start game</button>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
